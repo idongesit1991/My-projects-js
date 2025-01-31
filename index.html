@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenWeatherMap</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="parentChild">
+        <h2>Advanced Weather App</h2>
+        <div class="buttons">
+          <input
+            class="enterCityOrCountry"
+            type="text"
+            id="cityInput"
+            placeholder="Enter City or Country"
+          />
+          <button class="getWeatherDetails" id="getWeatherDetails">
+            Get Weather Details
+          </button>
+          <div class="weather__details hide" id="weather__details">
+            <!-- leave empty -->
+            <!-- leave empty -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question: Create a simple weather app that
+     allows users to enter a city name and displays
+      the current temperature and weather description for that city.
+     Use the OpenWeatherMap API to fetch the weather data. -->
+    <script src="index.js"></script>
+  </body>
+</html>
