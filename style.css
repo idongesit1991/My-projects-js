@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main__parent {
+  margin: 0 auto;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.first__child {
+  background-color: #f3f4f6;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+.first-son-header {
+  margin: 0 auto;
+  text-align: center;
+}
+.input__section {
+  align-items: center;
+}
+.theButton {
+  padding: 10px;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.input__section__inner {
+  margin-bottom: 10px;
+  padding: 12px;
+  border-color: #ebe7e7;
+  border-radius: 5px;
+  text-align: start;
+  cursor: text;
+  width: 90%;
+}
+.account__details {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 80px;
+}
+.name__address {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-size: 40;
+}
+.imageName__section {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.blue {
+  color: #0000ff;
+}
+.account__activities ul {
+  list-style: none;
+}
+
+.Num__followers,
+.Num__following,
+.Num__reposts,
+.Num__gists {
+  display: flex;
+}
+li {
+  margin-left: 10px;
+}
+.following__Followers {
+  display: flex;
+  padding-bottom: 50px;
+}
+.reposts__Gists {
+  display: flex;
+}
+.main__activity {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 50px;
+  font-size: 30;
+}
+.Num__gists {
+  padding-left: 130px;
+}
+.Num__following {
+  padding-left: 150px;
+}
+.hide {
+  display: none;
+}
